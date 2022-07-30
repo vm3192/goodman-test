@@ -17,6 +17,7 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
 	position: relative;
+	cursor: default;
 
 	&:not(:last-child) {
 		border-bottom: 1px solid #eaeaea;
