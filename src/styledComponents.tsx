@@ -5,6 +5,11 @@ export const AppWrapper = styled.div`
 	align-items: center;
 	height: 100vh;
 	padding: 15px;
+
+	@media(max-width: 576px) {
+		flex-direction: column-reverse;
+		height: 100%;
+	}
 `;
 
 export const List = styled.ul`
@@ -13,6 +18,10 @@ export const List = styled.ul`
 	background-color: #fff;
 	list-style: none;
 	overflow: hidden;
+
+	@media(max-width: 576px) {
+		max-width: 290px;
+	}
 `;
 
 export const ListItem = styled.li`
@@ -52,4 +61,8 @@ export const UploadInscription = styled.p`
 export const Preview = styled.div`
 	height: 100%;
 	flex: 1 1 auto;
+
+	@media(max-width: 576px) {
+		width: 100%;
+	}
 `

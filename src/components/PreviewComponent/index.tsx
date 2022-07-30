@@ -18,7 +18,7 @@ const PreviewComponent: FC<Props> = ({previewImage}) => {
 					<ambientLight intensity={0.2} />
 					<pointLight position={[10, 10, 10]} />
 					<mesh rotation-x={0.5} rotation-y={1}>
-						<boxGeometry args={[2, 2, 2]} />
+						<boxGeometry args={[3,3,3]} />
 						<meshStandardMaterial map={preview} />
 					</mesh>
 				</Canvas>
