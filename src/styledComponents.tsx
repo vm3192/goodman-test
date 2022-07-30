@@ -17,6 +17,9 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
 	position: relative;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 	cursor: default;
 
 	&:not(:last-child) {
